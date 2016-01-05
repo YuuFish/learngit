@@ -1,0 +1,11 @@
+创建dev分支，然后切换到dev分支：
+git check -b dev
+	相当于：git branch dev 
+			git checkout dev
+查看当前分支：
+	git branch (对于结果又*表示是当前的分支)
+然后就是一样的使用git add 以及git commit来进行对分支的版本库的更新备份开发；
+切换分支：
+git checkout master // 切换到master分支
+把dev分支的工作成果合并到master分支上：
+git merge dev // 前提是经过上面的指令已经切换到master分支，即要被合并到的分支；
